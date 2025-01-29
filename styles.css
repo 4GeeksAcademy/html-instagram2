@@ -1,0 +1,93 @@
+body {
+   background-color: black;
+}
+.Post {
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+   margin: auto;
+   width: 500px;
+   height: 600px;
+   border-radius: 10px;
+}
+.header {
+   display: flex;
+   width: 100%;
+   height: 10%;
+   flex-direction: row;
+   justify-content: space-between;
+}
+span.icon {
+   margin: 10px 0px 0px 10px;
+   height: 80%;
+   width: 0%;
+   align-self: center;
+   font-size: 2em;
+}
+span.title {
+   height: 80%;
+   width: 80%;
+   align-self: flex-start;
+   font-size: 1em;
+   padding: 10px 10px 0px 10px;
+   margin-left: none;
+}
+span.puntos {
+   align-self: center;
+   font-size: 1.2em;
+   margin: 8px 15px 8px 0px;
+}
+img {
+   width: 500px;
+   height: 300px;
+}
+.Post-icons {
+   width: 100%;
+   height: 7%;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+}
+span.heart {
+  height: 80%;
+  width: 3%;
+  align-self: center;
+  font-size: 1.5em;
+  margin: 4px 4px 0px 8px;
+}
+span.comment {
+  height: 80%;
+  width: 3%;
+  align-self: center;
+  font-size: 1.5em;
+  margin: 4px 4px 0px 8px;
+}
+span.paper {
+  height: 80%;
+  width: 80%;
+  align-self: center;
+  font-size: 1.5em;
+  margin: 4px 4px 0px 8px;
+}
+span.save {
+   margin: 8px 15px 8px 0px;
+   align-self: center;
+   font-size: 1.5em;
+}
+.Post-Body {
+   width: 100%;
+   height: 30%;
+   font-size: 1em; 
+   margin-top: -30px;
+   margin-left: 5px;
+}
+.texto1{
+   margin: 4px 4px 0px 8px;
+}
+.texto2{
+   margin-top: -25px;
+   text-align: justify;
+   margin: 4px 15px 0px 8px;
+}
